@@ -4,7 +4,7 @@
 RootModule = 'WebOperator.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.0'
+ModuleVersion = '0.1.0'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -22,7 +22,7 @@ CompanyName = 'MyCompany'
 Copyright = '(c) kamik. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'Seleniumモジュールに代わる、ウェブドライバのアップデート機能などを備えた'
+Description = 'ウェブドライバのアップデート機能などを備えたWeb操作コマンドセット'
 
 # Minimum version of the PowerShell engine required by this module
 # PowerShellVersion = ''
@@ -62,7 +62,7 @@ Description = 'Seleniumモジュールに代わる、ウェブドライバのア
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
 FunctionsToExport = @(
-
+    'Save-woWebDriver'
 )
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
