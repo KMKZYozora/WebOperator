@@ -4,6 +4,8 @@
 .DESCRIPTION
     対象のWebDriverを取得する
 .EXAMPLE
+    現在のEdgeブラウザのバージョンに対応するウェブドライバをカレントのディレクトリに保存します。
+
     Save-woWebDriver
 #>
 
